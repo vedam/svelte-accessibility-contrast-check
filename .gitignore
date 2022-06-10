@@ -1,0 +1,13 @@
+# project .ignores SvelteKit
+/.svelte-kit
+/build
+/functions
+
+# opinionated folders
+/_deprecated
+/_snippets
+
+# dotenv environment variables
+.env
+.env.*
+!.env.example
