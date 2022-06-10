@@ -1,0 +1,51 @@
+.theme-default {
+	--color-bg: #ffffff;
+	--color-bg-light: #f6fafd;
+	--color-bg-api: hsl(207, 86%, 96%);
+
+	--color-primary: #ff3e00;
+	/* --color-primary: hsl(15, 100%, 50%); */
+	--color-primary-text: hsl(15, 100%, 39%); /* passes on all three bgs */
+	/* IMO this is not an alternative to our original --primary */
+	--color-primary-box: hsl(17, 100%, 42%); /* passes on all three bgs */
+
+	/* no problems with this one */
+	--color-secondary: #676778;
+	--color-secondary-text: hsl(240, 8%, 44%); /* passes on all three bgs */
+	
+	--color-accent: #40b3ff;
+	/* --color-accent: hsl(204, 100%, 63%); */
+	--color-accent-text: hsl(212, 100%, 43%); /* passes on all three bgs */
+	/* IMO this is not an alternative to our original --accent */
+	--color-accent-box: hsl(208, 100%, 43%); /* passes on all three bgs */
+	
+	--color-highlight: #ffff82;
+	--color-heading: #222;
+	--color-text: #444;
+	--color-sidebar-text: rgba(255, 255, 255, .9);
+
+	/* doesn't syntax-highlighting belong to .default-theme? */
+	--color-code-bg: var(--color-bg-light);
+	--color-code-base: hsl(45, 7%, 35%);
+	--color-code-comment: hsl(218, 31%, 48%);
+	--color-code-keyword: var(--color-accent-text);
+	--color-code-function: var(--color-primary-text);
+	--color-code-string: hsl(36, 100%, 30%);
+	--color-code-number: hsl(139, 100%, 25%);
+	--color-code-template-string: hsl(2, 81%, 44%);
+
+	--border-w: .3rem;
+  --border-r: .4rem;
+}
+
+.typo-default {
+	--code-fs: 1.3rem;
+	--h6: 1.4rem;
+	--h5: 1.6rem;
+	--h4: 1.8rem;
+	--h3: 2.6rem;
+	--h2: 3rem;
+	--h1: 3.2rem;
+	--linemax: 72rem;
+	--lh: 1.5;
+}

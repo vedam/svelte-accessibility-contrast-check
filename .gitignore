@@ -1,13 +1,24 @@
-# project .ignores SvelteKit
-/.svelte-kit
-/build
-/functions
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# opinionated folders
-/_deprecated
-/_snippets
+node_modules
+dist
+dist-ssr
+*.local
 
-# dotenv environment variables
-.env
-.env.*
-!.env.example
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
